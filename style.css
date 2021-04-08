@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    width: 930px;
+    margin: auto;
+}
+
+.wrapper .card-box {
+    width: 280px;
+    top: 100px;
+    background: white;
+    border: 2px solid black;
+    margin-right: 28px;
+    margin-top: 125px;
+    transition: .3s;
+}
+
+.wrapper .card-box .icon {
+    width: 100px;
+    position: relative;
+    height: 60px;
+}
+
+.wrapper .card-box .icon i {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    font-size: 73px;
+}
+.halp-div {
+        padding: 0px 25px;
+}
+
+.hText {
+    position: relative;
+}
+
+.hText h3 {
+    color: black;
+    text-align: center;
+    margin-top: 51px;
+    text-transform: uppercase;
+    font-size: 31px;
+}
+
+.peraText p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 14px;
+    width: 213px;
+}
+
+.peraText p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 14px;
+    width: 226px;
+}
+
+.btnMain button {
+    padding: 11px 63px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+
+.card-box:hover {
+    background: #E2306C;
+    border-color: #E2306C;
+}
+
+.card-box:hover h3,p {
+    color: white;
+}
+
+.card-box:hover p {
+    color: white;
+}
+
+.card-box:hover i {
+    color: white;
+}
+
+.card-box:hover button {
+    background: white;
+    color: black;
+}
